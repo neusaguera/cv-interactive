@@ -1,0 +1,42 @@
+.cloudman{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    transform: scale(0.5);
+}
+
+.cloudman.visible {
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; 
+    z-index: 3;
+    left: 0%; 
+    animation-name: cloudmanMove;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes cloudmanMove {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(0.5) translateX(220px);
+    }
+  }
+@media all and (min-width: 1024px){
+    .cloudman{
+        position: absolute;
+        right: 10%;
+        top: 35%;
+        bottom: inherit;
+        transform: inherit;
+    } 
+}

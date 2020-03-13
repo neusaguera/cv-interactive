@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.direction-button{
+    display: block;
+    border-radius: 5px;
+    width: 34px;
+    height: 32px;    
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.direction-button.bottom{
+    bottom: 12px;
+}
+
+.direction-button.up{
+    top: 12px;
+}
+
+
+.icon-arrow, .icon-mouse{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: $textColorPrimary;
+}
+
+@media all and (min-width: 1024px){
+    .direction-button{
+        width: 44px;
+        height: 42px; 
+        background: $textColorPrimary;   
+    }
+    .icon-arrow{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hello .icon-arrow{
+        color: $helloBackground
+    }
+}

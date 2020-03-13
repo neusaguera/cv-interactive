@@ -1,0 +1,19 @@
+
+@import '../../styles/variables';
+
+.text-page{
+    font-size: 20px;
+    line-height: 30px;
+    color: $black;
+    font-family: $serif;
+    margin-top: 24px;
+    width: 100%;
+}
+
+@media all and (min-width: 1024px){
+    .text-page{
+        font-size: 32px;
+        line-height: 36px;
+        width: 60%;
+    }  
+}

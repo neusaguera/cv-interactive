@@ -1,0 +1,27 @@
+.thinker {
+    position: absolute;
+    left: 2%;
+    bottom: 0%;
+    transform: scale(0.75);
+    transform-origin: bottom;
+}
+
+.thinker.visible{
+    animation: bounce 2s ease 4;
+}
+@keyframes bounce {
+    0%   { transform: scale(0.75,0.75)    translateY(0); }
+    10%  { transform: scale(.85,.65) translateY(0); }
+    30%  { transform: scale(.65,.85) translateY(-30px); }
+    50%  { transform: scale(.75,.75)    translateY(0); }
+    100% { transform: scale(.75,.75)    translateY(0); }
+}
+@media all and (min-width: 1024px){
+    .thinker {
+        position: absolute;
+        left: 2%;
+        top: 43%;
+        bottom: inherit;
+        transform:inherit;
+    }
+}

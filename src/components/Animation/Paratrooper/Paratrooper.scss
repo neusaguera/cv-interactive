@@ -1,0 +1,53 @@
+.paratrooper{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    transform: scale(0.5);
+    transform-origin: top left;
+    z-index: 0;
+    opacity: 0;
+}
+
+.paratrooper.visible  {
+    animation-name: paratrooperMove;
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes paratrooperMove {
+    0% {
+      left: 50%;
+      top: 0%;
+      opacity: 0;
+    }
+    10%, 30%{
+        transform: scale(0.5) rotate(10deg);
+    }
+    20%, 40%{
+        transform: scale(0.5) rotate(0deg);
+    }
+    50%, 70% {
+        transform: scale(0.5) rotate(10deg);
+    }
+    60%, 80%{
+        transform: scale(0.5) rotate(0deg);
+    }
+    90%{
+        transform: scale(0.5) rotate(10deg);
+    }
+    100% {
+        left: 30%;
+        top: 60%;
+        transform: scale(0.5) rotate(0deg);
+        opacity: 1;
+    }
+  }
+@media all and (min-width: 1024px){
+    .paratrooper{
+        right: 15%;
+        bottom: inherit;
+        top: 20%;
+        transform: inherit;
+    } 
+}

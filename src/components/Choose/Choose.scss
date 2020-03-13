@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+@import '../../styles/common.scss';
+
+.hello{
+  background: $helloBackground;
+}
+
+.cards-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 1024px){
+  .cards-wrapper{
+    width: 70%;
+    justify-content: start;
+  }
+}

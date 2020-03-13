@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.card{
+    width: 115px;
+    height: 130px;
+    background: $textColorPrimary;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 24px;
+    z-index: 100;
+}
+
+.card img{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.card span {
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: $helloBackground;
+    display: block;
+}
+
+.card:hover span{
+    display: block;
+}
+
+@media all and (min-width: 1024px){
+    .card{
+        width: 150px;
+        height: 150px;
+        background: $textColorPrimary;
+        display: inline-block;
+        margin: 32px 12px 0 0;
+        border-radius: 5px;
+        position: relative;
+    }
+
+}

@@ -1,0 +1,38 @@
+.skater-wrapper.visible {
+    animation: horizontalMove 10s ease 1;
+}
+.skater-wrapper{
+    position: absolute;
+    left: 2%;
+    bottom: 7%;
+}
+.skater{
+    position: relative;
+    transform-origin: bottom;
+    transform: scale(0.75);
+}
+.visible .skater{
+    animation: bounce 2s ease 1;
+    animation-delay: 3s;
+}
+
+@keyframes bounce {
+    0%   { transform: scale(0.75,0.75)    translateY(0); }
+    10%  { transform: scale(.85,.65) translateY(0); }
+    30%  { transform: scale(.65,.85) translateY(-30px); }
+    50%  { transform: scale(.75,.75)    translateY(0); }
+    100% { transform: scale(.75,.75)    translateY(0); }
+}
+@keyframes horizontalMove{
+    0% { transform: translateX(10%)}
+    100% { transform: translateX(500%)}
+}
+@media all and (min-width: 1024px){
+    .skater {
+        position: absolute;
+        left: 2%;
+        top: 43%;
+        bottom: inherit;
+        transform:inherit;
+    }
+}

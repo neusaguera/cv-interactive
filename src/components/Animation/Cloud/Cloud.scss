@@ -1,0 +1,18 @@
+.cloud{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    transform: scale(0.5);
+}
+.projects .cloud{
+    bottom: 15%;
+}
+@media all and (min-width: 1024px){
+    .cloud{
+        position: absolute;
+        right: 10%;
+        top: 35%;
+        bottom: inherit;
+        transform: inherit;
+    } 
+}
