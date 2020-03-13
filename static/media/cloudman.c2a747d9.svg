@@ -1,0 +1,18 @@
+<svg id="cloudman" xmlns="http://www.w3.org/2000/svg" width="272" height="169" viewBox="0 0 272 169">
+  <g id="cloud" transform="translate(16 7)">
+    <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="60" cy="57" rx="60" ry="57" transform="translate(0 41)" fill="#e7f2f8"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="60" cy="57" rx="60" ry="57" transform="translate(136 48)" fill="#e7f2f8"/>
+    <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="75.5" cy="73" rx="75.5" ry="73" transform="translate(60)" fill="#e7f2f8"/>
+  </g>
+  <circle id="Ellipse_19" data-name="Ellipse 19" cx="12.5" cy="12.5" r="12.5" transform="translate(28)"/>
+  <line id="Line_41" data-name="Line 41" y2="52" transform="translate(41 13)" fill="none" stroke="#000" stroke-width="8"/>
+  <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="10" cy="20" rx="10" ry="20" transform="translate(31 28)"/>
+  <line id="Line_42" data-name="Line 42" x1="34" y2="24" transform="translate(6 56)" fill="none" stroke="#000" stroke-width="5"/>
+  <line id="Line_43" data-name="Line 43" y1="41" x2="28" transform="translate(14 55)" fill="none" stroke="#000" stroke-width="5"/>
+  <line id="Line_44" data-name="Line 44" x1="32" y1="24" transform="translate(7 14)" fill="none" stroke="#000" stroke-width="3"/>
+  <line id="Line_45" data-name="Line 45" x1="33" transform="translate(11 37)" fill="none" stroke="#000" stroke-width="3"/>
+  <circle id="Ellipse_21" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(6 11)"/>
+  <circle id="Ellipse_22" data-name="Ellipse 22" cx="5" cy="5" r="5" transform="translate(6 32)"/>
+  <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="6" cy="4" rx="6" ry="4" transform="translate(0 75)"/>
+  <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="6" cy="4" rx="6" ry="4" transform="translate(8 90)"/>
+</svg>
